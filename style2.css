@@ -1,0 +1,816 @@
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+* {
+  margin: 0;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #282a35;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: inline-block;
+  width: auto;
+  margin: 0 !important;
+  padding: 5px 15px 5px 15px !important;
+  font-size: 15px !important;
+  text-decoration: none;
+  line-height: 1.5;
+  color: #f1f1ff;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: black;
+  color: #ddd;
+}
+
+/* Style the "active" element to highlight the current page */
+.topnav a.active {
+  background-color: #ffffff;
+  color: white;
+}
+
+/* Style the search box inside the navigation bar */
+.topnav input[type="text"] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+@media screen and (max-width: 600px) {
+  .topnav a,
+  .topnav input[type="text"] {
+    float: none;
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+
+  .topnav input[type="text"] {
+    border: 1px #ccc;
+  }
+}
+
+/* DROPDOWN */
+
+body {
+  font-family: "Source Sans Pro Topnav", sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: rgb(10, 10, 10);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: rgb(244, 244, 244);
+  border-radius: 25px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.right {
+  float: right;
+  /* margin-left: 100px; */
+  margin-top: 10px;
+}
+
+.sign {
+  float: right;
+}
+
+/* .right .dua{
+  margin-top: 15px;
+} */
+
+.sign {
+  color: #333;
+  background-color: #d9eee1;
+  border-radius: 25px;
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 5;
+}
+
+.sign a:hover {
+  color: #333;
+  border-radius: 25px;
+  background-color: #04aa6d;
+}
+
+/* NAVVVVV */
+.topnav a {
+  font-size: 15px;
+}
+
+.awal {
+  background-color: #282a35;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.awal h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.awal h3 {
+  color: #ffc0c7;
+  text-align: center;
+}
+
+.awal h4 {
+  color: white;
+  font-size: 23px;
+  font-weight: 700;
+  margin-top: 30px !important;
+}
+
+.awal a {
+  color: white;
+}
+
+.awal .link {
+  text-align: center;
+}
+
+.awal a:hover {
+  color: rgb(36, 159, 79);
+}
+
+/* SEARCHHH */
+.search-input {
+  /* width: 100%; */
+  padding: 11px;
+  font-size: 17px;
+  border: 1px;
+  border-radius: 25px;
+  width: 68%;
+  padding-left: 25px;
+  background: white;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-right: 0;
+  outline: 0;
+}
+
+.submit {
+  border-radius: 25px;
+  float: right;
+  width: 20.6%;
+  padding: 10px;
+  background: #04aa6d;
+  font-size: 17px;
+  border: 1px;
+  border-left: none;
+  cursor: pointer;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+/* KANAN KIRI */
+.box .kiri {
+  width: 50%;
+  height: 600px;
+  background-color: #d9eee1;
+  float: left;
+}
+
+.box .kiri h1 {
+  font-size: 70px;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+.box .kiri p {
+  text-align: center;
+  margin-left: 200px;
+  margin-top: 20px;
+}
+
+.box .kiri ul {
+  list-style-type: none;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-left: 200px;
+  text-align: center;
+}
+
+.box .kiri a {
+  text-decoration: none;
+}
+
+.kiri .satu {
+  background-color: #04aa6d;
+  color: #ffffff;
+  margin: auto;
+  display: block;
+  border-radius: 25px;
+  width: 200px;
+  padding: 10px;
+}
+
+.kiri .dua {
+  background-color: #fff4a3;
+  color: #000000;
+  margin: auto;
+  display: block;
+  border-radius: 25px;
+  width: 200px;
+  padding: 10px;
+}
+
+.kiri .tiga {
+  background-color: #282a35;
+  color: #ffffff;
+  margin: auto;
+  display: block;
+  border-radius: 25px;
+  width: 200px;
+  padding: 10px;
+}
+
+.kiri .empat {
+  background-color: #ffc0c7;
+  color: #333;
+  margin: auto;
+  display: block;
+  border-radius: 25px;
+  width: 200px;
+  padding: 10px;
+}
+
+/* KANAN */
+.box .kanan {
+  width: 50%;
+  height: 600px;
+  background-color: #d9eee1;
+  float: left;
+}
+
+/* BOX KUNING */
+.box .kiri1 {
+  width: 50%;
+  height: 600px;
+  background-color: #fff4a3;
+  float: left;
+}
+
+.box .kiri1 h1 {
+  font-size: 70px;
+  text-align: center;
+  margin-left: 200px;
+  margin-top: 100px;
+  /* margin-left: 100px; */
+}
+
+.box .kiri1 p {
+  text-align: center;
+  margin-left: 200px;
+  margin-top: 20px;
+}
+
+.box .kiri1 ul {
+  list-style-type: none;
+  margin-right: 50px;
+  margin-left: 200px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.box .kiri1 a {
+  text-decoration: none;
+}
+
+.kiri1 .satu {
+  background-color: #04aa6d;
+  color: #ffffff;
+  margin: auto;
+  display: block;
+  border-radius: 25px;
+  width: 200px;
+  padding: 10px;
+}
+
+.kiri1 .dua {
+  background-color: #282a35;
+  color: white;
+  margin: auto;
+  display: block;
+  border-radius: 25px;
+  width: 200px;
+  padding: 10px;
+}
+
+.kiri1 .tiga {
+  background-color: #ffc0c7;
+  color: #333;
+  margin: auto;
+  display: block;
+  border-radius: 25px;
+  width: 200px;
+  padding: 10px;
+}
+
+.box .kanan1 {
+  width: 50%;
+  height: 600px;
+  background-color: #fff4a3;
+  float: left;
+  /* margin-top: -10px; */
+}
+
+/* BOX ABU */
+.box .kiri2 {
+  width: 50%;
+  height: 600px;
+  background-color: #282a35 !important;
+  float: left;
+}
+
+.box .kiri2 h1 {
+  font-size: 70px;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 200px;
+  color: white;
+  /* margin-left: 100px; */
+}
+
+.box .kiri2 p {
+  text-align: center;
+  margin-left: 200px;
+  margin-top: 20px;
+  color: white;
+}
+
+.box .kiri2 ul {
+  list-style-type: none;
+  margin-left: 200px;
+  margin-right: 50px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.box .kiri2 a {
+  text-decoration: none;
+}
+
+.kiri2 .satu {
+  background-color: #04aa6d;
+  color: #ffffff;
+  margin: auto;
+  display: block;
+  border-radius: 25px;
+  width: 200px;
+  padding: 10px;
+}
+
+.kiri2 .dua {
+  background-color: white;
+  color: black;
+  margin: auto;
+  display: block;
+  border-radius: 25px;
+  width: 200px;
+  padding: 10px;
+}
+
+.kiri2 .tiga {
+  background-color: #ffc0c7;
+  color: #333;
+  margin: auto;
+  display: block;
+  border-radius: 25px;
+  width: 200px;
+  padding: 10px;
+}
+
+.box .kanan2 {
+  width: 50%;
+  height: 600px;
+  background-color: #282a35 !important;
+  float: left;
+  /* margin-top: -10px; */
+}
+
+/* BOX PUTIH / PYTHON */
+.box .kiri3 {
+  width: 50%;
+  height: 600px;
+  background-color: #f3ecea !important;
+  float: left;
+}
+
+.box .kiri3 h1 {
+  font-size: 70px;
+  text-align: center;
+  margin-left: 200px;
+  margin-top: 100px;
+  /* margin-left: 100px; */
+}
+
+.box .kiri3 p {
+  text-align: center;
+  margin-left: 200px;
+  margin-top: 20px;
+}
+
+.box .kiri3 ul {
+  list-style-type: none;
+  margin-right: 50px;
+  margin-left: 200px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.box .kiri3 a {
+  text-decoration: none;
+}
+
+.kiri3 .satu {
+  background-color: #04aa6d;
+  color: #ffffff;
+  margin: auto;
+  display: block;
+  border-radius: 25px;
+  width: 200px;
+  padding: 10px;
+}
+
+.kiri3 .dua {
+  background-color: #282a35;
+  color: white;
+  margin: auto;
+  display: block;
+  border-radius: 25px;
+  width: 200px;
+  padding: 10px;
+}
+
+.kiri3 .tiga {
+  background-color: #ffc0c7;
+  color: #333;
+  margin: auto;
+  display: block;
+  border-radius: 25px;
+  width: 200px;
+  padding: 10px;
+}
+
+.box .kanan3 {
+  width: 50%;
+  height: 600px;
+  background-color: #f3ecea !important;
+  float: left;
+  /* margin-top: -10px; */
+}
+
+/* BOX BIRU/SQL */
+.box .kiri4 {
+  width: 50%;
+  height: 600px;
+  background-color: #96d4d4 !important;
+  float: left;
+}
+
+.box .kiri4 h1 {
+  font-size: 70px;
+  margin-left: 200px;
+  text-align: center;
+  margin-top: 100px;
+  /* margin-left: 100px; */
+}
+
+.box .kiri4 p {
+  text-align: center;
+  margin-left: 200px;
+  margin-top: 20px;
+}
+
+.box .kiri4 ul {
+  list-style-type: none;
+  margin-right: 50px;
+  margin-left: 200px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.box .kiri4 a {
+  text-decoration: none;
+}
+
+.kiri4 .satu {
+  background-color: #04aa6d;
+  color: #ffffff;
+  margin: auto;
+  display: block;
+  border-radius: 25px;
+  width: 200px;
+  padding: 10px;
+}
+
+.kiri4 .dua {
+  background-color: #282a35;
+  color: white;
+  margin: auto;
+  display: block;
+  border-radius: 25px;
+  width: 200px;
+  padding: 10px;
+}
+
+.kiri4 .tiga {
+  background-color: #ffc0c7;
+  color: #333;
+  margin: auto;
+  display: block;
+  border-radius: 25px;
+  width: 200px;
+  padding: 10px;
+}
+
+.box .kanan4 {
+  width: 50%;
+  height: 600px;
+  background-color: #96d4d4 !important;
+  float: left;
+  /* margin-top: -10px; */
+}
+
+.card {
+  width: 300px;
+  border: 1px solid #ddd;
+  background-color: #e7e9eb !important;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 70px;
+  margin-left: 50px;
+}
+
+.w3-code {
+  width: auto;
+  background-color: #fff;
+  color: #000;
+  padding: 8px 12px;
+  border-left: 4px solid #4caf50;
+  word-wrap: break-word;
+}
+
+.tryit-button {
+  background-color: #04aa6d;
+  color: white;
+  border-radius: 25px;
+  font-size: 18px;
+  width: 200px;
+}
+
+.w3-button {
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.container {
+  margin-left: 7%;
+  width: 80%;
+  height: 80%;
+  display: flex;
+  /* Menggunakan Flexbox untuk mengatur tampilan */
+  flex-wrap: wrap;
+  /* Ini akan membuat konten wrap ke baris berikutnya jika melebihi lebar container */
+  justify-content: space-between;
+  /* Mengatur ruang antara elemen di dalam container */
+}
+
+.left-box,
+.right-box {
+  line-height: 2;
+  text-align: center;
+  border-radius: 5px;
+  margin: 10px;
+  margin-bottom: 5%;
+  width: 45%;
+  /* Mengatur lebar masing-masing kotak menjadi sekitar setengah dari container */
+  padding: 10px;
+  /* Mengatur padding untuk memberikan ruang di sekitar konten kotak */
+  border: 1px solid #ddd;
+  /* Menambahkan garis batas untuk kotak */
+  box-sizing: border-box;
+  /* Menghitung padding dan border ke dalam lebar elemen */
+}
+
+.BOK-KECIL {
+  line-height: 2;
+  text-align: center;
+  border-radius: 5px;
+  margin: 10px;
+  margin-bottom: 5%;
+  width: 19%;
+  /* Mengatur lebar masing-masing kotak menjadi sekitar setengah dari container */
+  padding: 10px;
+  /* Mengatur padding untuk memberikan ruang di sekitar konten kotak */
+  border: 1px solid #ddd;
+  /* Menambahkan garis batas untuk kotak */
+  box-sizing: border-box;
+  /* Menghitung padding dan border ke dalam lebar elemen */
+}
+
+.left-box button {
+  text-align: center;
+  border-radius: 25px;
+  border: none;
+  background-color: #333;
+}
+
+.left-box a {
+  color: #d9eee1;
+  font-weight: bold;
+}
+
+.left-box h2 {
+  margin-top: 20px;
+}
+
+.right-box h2 {
+  margin-top: 20px;
+}
+
+.right-box a {
+  color: #d9eee1;
+  font-weight: bold;
+}
+
+.right-box button {
+  text-align: center;
+  border-radius: 25px;
+  border: none;
+  background-color: #333;
+}
+
+/* KOTAK BANYAK */
+.kotak {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  height: 80%;
+  margin-left: 7%;
+  justify-content: space-between;
+}
+
+.kotak .c,
+.c1 {
+  width: 48%;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.button-b2 {
+  display: block;
+  margin-top: 10px;
+  text-align: left;
+  background-color: #00a859;
+  border-radius: 8px;
+  margin-left: 1.5rem;
+}
+
+.button-b2 a {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  font-size: larger;
+}
+
+.button-b3 {
+  display: block;
+  margin-top: 10px;
+  text-align: left;
+  background-color: #eae098;
+  border-radius: 8px;
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+}
+
+.button-b3 a {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #000000;
+  text-decoration: none;
+  font-size: larger;
+}
+
+.button-b4 {
+  display: block;
+  margin-top: 10px;
+  text-align: left;
+  background-color: #00a859;
+  border-radius: 25px;
+  margin: 0 auto;
+}
+
+.button-b4 a {
+  display: inline-block;
+  padding: 10px 60px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: x-large;
+}
+
+.button-b5 {
+  display: block;
+  margin-top: 10px;
+  text-align: left;
+  background-color: #282a35;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+
+.button-b5 a {
+  display: inline-block;
+  padding: 10px 200px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: x-large;
+}
